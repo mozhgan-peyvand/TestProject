@@ -10,6 +10,7 @@ import androidx.core.view.WindowInsetsCompat
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.d("hi second","seocnd change")
         enableEdgeToEdge()
         Log.d("hi android", "i am here")
         setContentView(R.layout.activity_main)
